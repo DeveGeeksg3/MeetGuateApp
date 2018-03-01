@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Inicio"
+            android:icon="@drawable/button_home"
+            android:title="@string/inicio"
+            />
+        <item
+            android:id="@+id/nav_conoce"
+    android:icon="@android:drawable/ic_dialog_map"
+    android:title="@string/conoce" />
+<item
+android:id="@+id/nav_departamento"
+android:icon="@drawable/icon_depart"
+        android:title="@string/departamentos" />
+<item
+android:id="@+id/nav_foro"
+android:icon="@drawable/icon_foro"
+android:title="@string/foro" />
+<item
+android:id="@+id/nav_config"
+android:icon="@drawable/ic_menu_manage"
+android:title="@string/configuraci_n" />
+    </group>
+
+<item android:title="@string/comparte">
+<menu>
+    <item
+        android:id="@+id/nav_comparte"
+        android:icon="@drawable/ic_menu_share"
+        android:title="@string/comparte_meetguate" />
+</menu>
+</item>
+
+    </menu>
